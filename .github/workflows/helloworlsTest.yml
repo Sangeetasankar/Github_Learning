@@ -1,0 +1,13 @@
+name: Hello
+
+on: push
+
+jobs:
+
+ name: helloTest
+  runs-on: ubuntu-latest
+
+  steps:
+
+   -name: Print Hello World Test
+   run: echo "Hello Test World"

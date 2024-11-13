@@ -1,13 +1,9 @@
-name: Hello
+name: HelloTestWorld
 
 on: push
-
 jobs:
-
- helloTest: 
-  runs-on: ubuntu-latest
-
-  steps:
-
-   -name: Print Hello World Test
-   run: echo "Hello Test World"
+    hello:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Print HelloTestWorld
+          run: echo "Hello Testing World"
